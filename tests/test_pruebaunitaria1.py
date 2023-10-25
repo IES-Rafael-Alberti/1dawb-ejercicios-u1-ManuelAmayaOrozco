@@ -1,5 +1,5 @@
 import pytest
-from pruebaunitaria1 import mayor
+from src.pruebaunitaria1 import mayor
 
 def test_mayor():
     assert mayor(1, 2) == 2
